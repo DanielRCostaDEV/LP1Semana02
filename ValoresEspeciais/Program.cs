@@ -73,6 +73,13 @@ namespace ValoresEspeciais
             float nanf = float.NaN;
             Console.WriteLine($"Float NaN: {nanf}");
 
+            // uint overflow
+
+            x = ushort.MinValue;
+            Console.WriteLine((ushort)(x - 1));
+            uint x = ushort.MaxValue;
+            Console.WriteLine((ushort)(x + 1));
+
         }
     }
 }
