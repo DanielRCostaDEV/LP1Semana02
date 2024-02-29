@@ -80,6 +80,12 @@ namespace ValoresEspeciais
             uint x = ushort.MaxValue;
             Console.WriteLine((ushort)(x + 1));
 
+            // float overflow
+            float y = 5 * float.MaxValue;
+            Console.WriteLine(y);
+            float z = float.MinValue + 5;
+            Console.WriteLine(z);
+
         }
     }
 }
