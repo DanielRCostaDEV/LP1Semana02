@@ -86,6 +86,11 @@ namespace ValoresEspeciais
             float z = float.MinValue + 5;
             Console.WriteLine(z);
 
+            // float underflow
+            float uv = 0.25e-38f;
+            float result = uv / 2.0f;
+            Console.WriteLine(result);
+
         }
     }
 }
