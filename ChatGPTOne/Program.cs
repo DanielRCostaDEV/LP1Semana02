@@ -33,10 +33,13 @@ namespace ChatGPTOne
                     break;
 
                 case "EXIT":
-                    resposta = "Goodbye";
+                    response = "Goodbye";
                     break;  
                 
-
+                //In case the user types something else
+                default:
+                    response = "I'm sorry, I can't answer that.";
+                    break;
             }
 
             // respond
