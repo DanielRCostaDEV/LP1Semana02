@@ -17,6 +17,10 @@ namespace Cilindro
             float height = float.Parse(h);
             float r = float.Parse(rad);
 
+            //Volume of the Cylinder
+            float v = MathF.PI*MathF.Pow(r,2)*height;
+            Console.WriteLine($"The volume of the cylinder is {v}");
+
         }
     }
 }
