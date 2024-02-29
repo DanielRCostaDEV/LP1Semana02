@@ -21,6 +21,10 @@ namespace Cilindro
             float v = MathF.PI*MathF.Pow(r,2)*height;
             Console.WriteLine($"The volume of the cylinder is {v}");
 
+            //Surface Area
+            float s = 2*MathF.PI*r*(r+height);
+            Console.WriteLine($"The cylinder surface area is {s}")
+
         }
     }
 }
