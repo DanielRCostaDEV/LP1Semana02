@@ -32,6 +32,11 @@ namespace ChatGPTOne
                     response = "@DiogoDeAndrade";
                     break;
 
+                case "EXIT":
+                    resposta = "Goodbye";
+                    break;  
+                
+
             }
 
             // respond
