@@ -12,7 +12,10 @@ namespace SmoothOperator
 
             // Conversion
             byte n = byte.Parse(input);
-            
+
+            //increase and decrease
+            Console.WriteLine(--n);
+            Console.WriteLine(++n);
 
         }
     }
