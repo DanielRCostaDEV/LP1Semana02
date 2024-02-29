@@ -10,6 +10,10 @@ namespace SmoothOperator
             Console.Write("Insert a non negative integer: ");
             string input = Console.ReadLine();
 
+            // Conversion
+            byte n = byte.Parse(input);
+            
+
         }
     }
 }
