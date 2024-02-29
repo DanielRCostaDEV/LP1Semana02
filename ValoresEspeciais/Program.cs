@@ -53,6 +53,26 @@ namespace ValoresEspeciais
             decimal de = decimal.MinValue;
             decimal de1 = decimal.MaxValue;
             Console.WriteLine($"decimal min: {de} decimal max: {de1}");
+
+            //Infinite
+
+            float infP = float.PositiveInfinity;
+            Console.WriteLine($"Positive infinite: {infP}");
+            float infM = float.NegativeInfinity;
+            Console.WriteLine($"Negative infinite: {infM}");
+
+            double infA = double.PositiveInfinity;
+            Console.WriteLine($"Positive infinite: {infA}");
+            double infS = double.NegativeInfinity;
+            Console.WriteLine($"Negative infinite: {infS}");
+
+            //NaN
+
+            double nand = double.NaN;
+            Console.WriteLine($"Double NaN: {nand}");
+            float nanf = float.NaN;
+            Console.WriteLine($"Float NaN: {nanf}");
+
         }
     }
 }
